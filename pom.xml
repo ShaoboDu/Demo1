@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.pptv.Demo4</groupId>
-	<artifactId>Demo4</artifactId>
+	<groupId>com.haha.Demo1</groupId>
+	<artifactId>Demo</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Demo4 Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<project.build.name>tools</project.build.name>
+		<project.build.name>Demo1</project.build.name>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -48,11 +48,11 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.1.1</version>
 				<configuration>
-					<!-- <warName>${project.build.name}</warName> -->
+					<warName>${project.build.name}</warName>
 				</configuration>
 			</plugin>
 
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.codehaus.cargo</groupId>
 				<artifactId>cargo-maven2-plugin</artifactId>
 				<version>1.4.9</version>
@@ -66,7 +66,7 @@
 						<home>D:\Practice\Software\apache-tomcat-7.0.69\apache-tomcat-7.0.69</home>
 					</configuration>
 				</configuration>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
 </project>
